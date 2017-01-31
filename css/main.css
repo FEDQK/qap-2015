@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+body, html{
+    height: 100%;
+    width: 99.9%;
+}
+body {
+    font: 12px "Segoe UI Light", Arial, Tahoma;
+}
+#headl {
+    background-image: url("../images/headline.png");
+    height: 5px;
+    width: 100%;
+}
+#botl {
+    background-image: url("../images/botline.png");
+    bottom: 0;
+    height: 3px;
+    width: 100%;
+    position: fixed;
+}
+#name {
+    margin-left: 120px;
+    float: left;
+    font-size: 40px;
+    font-weight: normal;
+}
+#nameitems {
+    font-size: 40px;
+    font-weight: normal;
+    float: left;
+}
+#nameitems span {
+    margin-left: 120px;
+}
+#nameitems img {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 39px;
+    cursor: pointer;
+}
+#cart {
+    margin-right: 42px;
+    float: right;
+    width: 280px;
+    height: 60px;
+    background-color: #d9644a;
+}
+#cart img {
+    margin-top: 13px;
+    margin-left: 20px;
+}
+#cart span {
+    float: right;
+    margin-right: 30px;
+    font-size: 20pt;
+    color: white;
+    line-height: 60px;
+}
+#menu {
+    margin-top: 34px;
+    height: 61px;
+}
+#content {
+    width: 1064px;
+    height: 475px;
+    overflow: auto;
+}
+ .bl {
+    float: left;
+}
+ 
+
+.namemenu{
+    position: relative;
+    margin-top: -35px;
+    font-size: 18pt;
+    background: white;
+    opacity: 0.7;
+}
+.namemenu span {
+    margin-left: 19px;
+}
+.top10 {
+    margin-top: 10px;
+}
+.left10 {
+    margin-left: 10px;
+}
+.pic:hover {
+    opacity: 0.5;
+}
+.list {
+    display: none;
+    overflow: auto;
+    width: 2216px;
+    height: 485px;
+}
+.list img {
+    width: 360px;
+    height: 370px;
+}
+.namelist {
+    height: 33px;
+    position: relative;
+    margin-top: -35px;
+    font-size: 18pt;
+    background: white;
+    opacity: 0.7;
+    width: 361px;
+}
+.nlist {
+    margin-left: 19px;
+}
+.price {
+    font-size: 22pt;
+    color: #d9644a;
+    font-weight: bold;
+    float: right;
+    margin-top: -6px;
+    margin-right: 20px;
+}
+.pricbutt {
+    height: 80px;
+    width: 360px;
+    background-color: #4ea686;
+    color: white;
+}
+.pricbutt div {
+    float: left;
+}
+.pricbutt button {
+    border: solid 2px white;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    font-size: 28pt;
+    line-height: 30px;
+    margin: 20px 20px;
+    background-color: #4ea686;
+    cursor: pointer;
+    float: left;
+    color: white;
+     -webkit-user-select: none;
+}
+.pricbutt button:hover {
+    border-color: #d9644a;
+    color: #d9644a;
+}
+.number {
+   text-align: center;
+    margin: 10px 77px;
+}
+.amount {
+    font-size: 11pt;
+}
+.num {
+    font-size: 24pt;
+    position: relative;
+    margin-top: -5px;
+}
+#butpic {
+    display: none;
+}
+#windo {
+    margin-top: 40px;
+     margin-right: 42px;
+     margin-left: 120px;
+    height: 500px;
+    /*margin: auto 42px auto 120px;*/
+    width: auto;
+    overflow: hidden;
+}
+
